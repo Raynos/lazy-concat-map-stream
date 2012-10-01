@@ -1,0 +1,36 @@
+{
+  "name": "lazy-concat-map-stream",
+  "version": "0.1.0",
+  "description": "Wrap a stream with concat mapdashery",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/lazy-concat-map-stream.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/lazy-concat-map-stream",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/lazy-concat-map-stream/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "proxy-stream": "~0.2.6"
+  },
+  "devDependencies": {
+    "tap": "~0.3.1",
+    "read-stream": "~0.4.2",
+    "write-stream": "~0.4.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/lazy-concat-map-stream/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "tap --stderr --tap ./test"
+  }
+}
